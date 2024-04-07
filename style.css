@@ -1,0 +1,534 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 0.9rem;
+        overflow-x: hidden;
+    }
+
+    .img-banner {
+        width: 150vh;
+    }
+
+    .navbar-link {
+        font-size: 0.9rem;
+    }
+
+    .iconos {
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .icon {
+        width: 8vh;
+    }
+
+    .icon:hover {
+        width: 9vh;
+        transition: 0.3s;
+    }
+
+    .card.service {
+        transition: 0.3s;
+    }
+
+    .card-service:hover {
+        transform: scale(0.95);
+        transition: 0.3s;
+    }
+
+    .btn {
+        background-color: #8d68a9;
+        color: white;
+    }
+
+    .btn-convenio {
+        background-color: #60b3e6;
+        color: white;
+    }
+
+    .texto1 {
+        color: #50b69b;
+    }
+
+    .texto2 {
+        color: #74748b;
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+
+    .card-title {
+        font-family: "Ubuntu", sans-serif;
+    }
+
+    .app-img {
+        width: 30%;
+    }
+
+    footer {
+        background-color: #50b69b;
+    }
+
+
+    .logoA {
+        width: 30vh;
+    }
+
+    .icon-footer {
+        width: 4vh;
+    }
+
+    .bg {
+        background-image: url(./img/fondoapp.png);
+        background-position: center;
+        background-size: cover;
+        width: auto;
+    }
+
+    .cell-app {
+        width: 50%;
+    }
+
+    .title-gestor {
+        font-size: 1.5rem;
+    }
+
+    .servicios {
+        width: 100%;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    /*APP*/
+    .btn-app {
+        background-color: #50b69b;
+        color: white;
+        border: none;
+        width: 9rem;
+        font-size: 1.3rem;
+    }
+
+    .navbar-app {
+        background-color: #50b69b;
+    }
+
+    .btn-app:hover {
+        width: 11rem;
+        transition: 0.3s;
+    }
+
+    .texto-gestor {
+        color: #74748b;
+        font-size: 1.3rem;
+        text-align: justify;
+        margin: 0% 15% 0% 15%;
+    }
+
+    /*Contactenos*/
+
+    .x {
+        background-color: #50b69b;
+        color: white;
+        width: 5vh;
+    }
+
+    #modal {
+        width: 60vh;
+        margin: 5vh 0vh 0vh 70vh;
+        border-radius: 20px;
+        border-style: none;
+    }
+
+    #modal1 {
+        width: 60vh;
+        margin: 5vh 0vh 0vh 70vh;
+        border-radius: 20px;
+        border-style: none;
+    }
+
+    #modal3 {
+        width: 60vh;
+        margin: 5vh 0vh 0vh 70vh;
+        border-radius: 20px;
+        border-style: none;
+    }
+
+    #modal4 {
+        width: 60vh;
+        margin: 5vh 0vh 0vh 70vh;
+        border-radius: 20px;
+        border-style: none;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        margin: 20px auto 20px auto;
+        padding: 0px 10px;
+    }
+
+    input {
+        height: 30px;
+        width: 100%;
+        border-radius: 2px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(223, 223, 223);
+    }
+
+    textarea {
+        height: 100px;
+        width: 100%;
+        border-radius: 2px;
+        border: none;
+        background-color: rgb(223, 223, 223);
+    }
+
+    button {
+        font-family: "ubuntu", sans-serif;
+        border-radius: 5px;
+        width: 100px;
+    }
+
+    label {
+        font-size: 1rem;
+        font-family: "Ubuntu", sans-serif;
+        color: #50b69b;
+    }
+
+    /*Convenios*/
+    .titulo-convenios {
+        color: #60b3e6;
+    }
+
+    .titulo-publicidad {
+        color: #60b3e6;
+        font-size: 4rem;
+    }
+
+    .btn-convenio {
+        background-color: #60b3e6;
+        color: white;
+        border: none;
+        width: 9rem;
+        font-size: 1.3rem;
+    }
+
+    .foot-convenios {
+        background-color: #60b3e6;
+    }
+
+    .navbar-convenio {
+        background-color: #60b3e6;
+    }
+
+    .btn-convenio:hover {
+        width: 11rem;
+        transition: 0.3s;
+    }
+
+    /*Capacitacion*/
+
+    .img-cap {
+        height: 20vh;
+    }
+
+    .img-cap1 {
+        width: 500px;
+        margin-top: 50px;
+    }
+
+    .img-cap2 {
+        width: 450px;
+    }
+
+    .img-cap3 {
+        width: 470px;
+    }
+
+    .titulo-capacitacion {
+        color: #50cad1;
+    }
+
+    .text-capacitaciones {
+        font-size: 1.4rem;
+        color: #74748b;
+        text-align: justify;
+    }
+
+    .foot-capacitacion {
+        background-color: #50cad1;
+    }
+
+    .navbar-capacitacion {
+        background-color: #50cad1;
+    }
+
+    .btn-capacitacion {
+        background-color: #50cad1;
+        color: white;
+        border: none;
+        width: 9rem;
+        font-size: 1.3rem;
+    }
+
+    .btn-capacitacion:hover {
+        width: 11rem;
+        transition: 0.3s;
+    }
+
+    /*Nosotros*/
+
+    .card-nosotros {
+        border-color: #8d68a9;
+    }
+
+    .card-nos {
+        height: 6vh;
+    }
+
+    .card-nos1 {
+        font-size: .8rem;
+    }
+
+    .titulo-nosotros {
+        color: #8d68a9;
+    }
+
+    .navbar-nosotros {
+        background-color: #8d68a9;
+    }
+
+    .foot-nosotros {
+        background-color: #8d68a9;
+    }
+
+    .btn-nosotros {
+        background-color: #8d68a9;
+        color: white;
+        border: none;
+        width: 9rem;
+        font-size: 1.3rem;
+    }
+
+    .btn-nosotros:hover {
+        width: 11rem;
+        transition: 0.3s;
+    }
+
+    /*Asesorias*/
+
+    .titulo-asesoria {
+        color: #74748b;
+        font-size: 2rem;
+    }
+
+    .texto3 {
+        color: #353538;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    .img-asesoria1{
+        width: 610px;
+    }
+
+    .img-asesoria2{
+        width: 600px;
+    }
+
+    .foot-asesoria {
+        background-color: #74748b;
+    }
+
+    .navbar-asesoria {
+        background-color: #74748b;
+    }
+
+    .btn-asesoria {
+        background-color: #74748b;
+        color: white;
+        border: none;
+        width: 9rem;
+        font-size: 1.3rem;
+    }
+
+    .btn-asesoria:hover {
+        width: 11rem;
+        transition: 0.3s;
+    }
+
+
+    /*Media Queris*/
+
+    @media screen and (max-width: 1200px) {
+        .capacitacion1 {
+            flex-direction: column;
+            margin: auto;
+            padding: 0px;
+        }
+
+        .asesorias1 {
+            flex-direction: column;
+            margin: auto;
+            padding: 0px;
+            width: 100%;
+        }
+
+        .home {
+            flex-direction: column;
+        }
+
+
+    }
+
+
+    @media screen and (max-width: 1150px) {
+        .nosotros {
+            flex-direction: column;
+        }
+
+        .card-nosotros {
+            width: 80%;
+            margin: auto;
+        }
+    }
+
+    @media screen and (max-width: 1100px) {
+        .cell {
+            flex-direction: column;
+            margin: auto;
+        }
+
+        .bg {
+            background-image: url(./img/fondoapp.png);
+
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left;
+            width: auto;
+        }
+
+    }
+
+    /*@media screen and (max-width: 767px) {
+        .img-equipo {
+            margin: auto;
+            width: 50%;
+
+        }
+    }*/
+
+
+    @media screen and (max-width: 750px) {
+        iframe {
+            width: auto;
+            height: auto;
+        }
+
+        .servicios-app {
+            flex-direction: column;
+        }
+
+        .gestor {
+            flex-direction: column;
+        }
+
+        .servicios {
+            flex-direction: column;
+            width: 90%;
+            margin: 50px 0px 50px 0px;
+        }
+
+        .servicios-convenio {
+            width: 150%;
+        }
+
+        .nosotros {
+            flex-direction: column;
+        }
+
+        .container-cap {
+            width: 100%;
+        }
+
+    }
+
+
+
+    /*Inicio*/
+    @media screen and (max-width: 576px) {
+        .card-service {
+            flex-direction: column;
+            width: 70%;
+        }
+
+        .iconos {
+            width: 80%;
+        }
+
+        .aplicacion {
+            width: 100%;
+        }
+
+        .asesorias1 {
+            width: 90%;
+        }
+
+        .text-cap {
+            width: 100%;
+        }
+
+
+        .text-capacitaciones {
+            font-size: 1.1rem;
+            margin: 0px;
+        }
+
+        .in-flex {
+            margin: 0px;
+        }
+
+    }
+
+
+
+
+    .home {
+        display: flex;
+    }
+
+    .in-flex {
+        flex: 1;
+        margin: 0vh 5vh 0vh 5vh;
+    }
+
+    .in-flex:first-child {
+        flex: 1;
+        margin: 0vh 7vh 0vh 7vh
+    }
+
+
+    .btn-wsp{
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        line-height: 55px;
+        bottom: 30px;
+        right: 30px;
+        background: #0df053;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+        z-index: 100;
+    }
