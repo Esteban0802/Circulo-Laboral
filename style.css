@@ -102,7 +102,7 @@
 
     /*APP*/
     .btn-app {
-        background-color: #0db5b0;
+        background-color:#50b69b;
         color: white;
         border: none;
         width: 9rem;
@@ -110,7 +110,11 @@
     }
 
     .navbar-app {
-        background-color: #0db5b0;
+        background-color:#50b69b;
+    }
+
+    .texto-app{
+        color: #50b69b;
     }
 
     .btn-app:hover {
@@ -123,6 +127,10 @@
         font-size: 1.3rem;
         text-align: justify;
         margin: 0% 15% 0% 15%;
+    }
+
+    .foot-app{
+        background-color: #50b69b;
     }
 
     /*Contactenos*/
@@ -259,6 +267,11 @@
         text-align: justify;
     }
 
+    .texto-capacitacion {
+        color: #74748b;
+        text-align: start;
+    }
+
     .foot-capacitacion {
         background-color: #50cad1;
     }
@@ -303,7 +316,7 @@
 
     .texto2 {
         color: #74748b;
-        text-align: justify;
+        text-align: start;
     }
 
     .navbar-nosotros {
@@ -338,7 +351,7 @@
         font-size: 2rem;
     }
 
-    .texto3 {
+    .texto-asesoria {
         color: #383838;
         text-align: justify;
     }
