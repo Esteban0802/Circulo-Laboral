@@ -82,6 +82,19 @@
         width: auto;
     }
 
+    .btn-index{
+        background-color:#0db5b0;
+        color: white;
+        border: none;
+        width: 9rem;
+        font-size: 1.3rem;
+    }
+
+    .btn-index:hover {
+        width: 11rem;
+        transition: 0.3s;
+    }
+
     .cell-app {
         width: 50%;
     }
