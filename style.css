@@ -238,6 +238,15 @@
         font-size: 1.3rem;
     }
 
+    .texto-socio{
+        text-align: justify;
+        color: #74748b;
+    }
+
+    .img-yesica{
+        width: 40%;
+    }
+
     .foot-convenios {
         background-color: #0f8cb2;
     }
@@ -527,6 +536,10 @@
 
         .in-flex {
             margin: 0px;
+        }
+
+        .alianzas{
+            width: 90%;
         }
 
     }
