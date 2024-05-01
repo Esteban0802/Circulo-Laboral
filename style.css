@@ -95,6 +95,10 @@
         transition: 0.3s;
     }
 
+    .navbar-index{
+        background-color:#0db5b0;
+    }
+
     .cell-app {
         width: 50%;
     }
