@@ -581,3 +581,11 @@
         box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
         z-index: 100;
     }
+
+    .center-carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Opcional: centra verticalmente */
+      }
+      
